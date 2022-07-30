@@ -1,3 +1,4 @@
+
 import './categories.styles.scss'
 
 
@@ -37,6 +38,7 @@ const CategoriesCard = () => {
     {categories.map((category) => {
       return <CategoryItem key={category.id} category={category} />
     })}
+      
     </div>
 }
 

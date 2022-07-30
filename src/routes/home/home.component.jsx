@@ -1,9 +1,18 @@
+import { Outlet } from "react-router-dom";
+
 import CategoriesCard from "../../component/categoriesss/CategoriesCard";
+
+
 
 const Home = () => {
 
   return (
-    <CategoriesCard />
+    <div>
+
+      <CategoriesCard />
+      <Outlet />
+
+    </div>
   );
 };
 
