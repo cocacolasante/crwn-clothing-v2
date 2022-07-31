@@ -1,8 +1,9 @@
-import './forminput.styles.scss'
+import "../form-input/forminput.styles.scss"
+
 
 const FormInput = ({label, ...otherProps}) => {
     return (
-        <div>
+        <div className="group" >
             <input className='form-input' {...otherProps} />
             {
                 label && (
