@@ -2,7 +2,7 @@
 import './categories.styles.scss'
 
 
-import CategoryItem from "../category-item/category-item.component"
+import DirectoryItem from "../directory-item/directory-item.component"
 
 const categories = [
     {
@@ -36,7 +36,7 @@ const categories = [
 const CategoriesCard = () => {
     return <div className='categories-container'>
     {categories.map((category) => {
-      return <CategoryItem key={category.id} category={category} />
+      return <DirectoryItem key={category.id} category={category} />
     })}
       
     </div>
